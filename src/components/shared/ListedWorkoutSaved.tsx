@@ -29,11 +29,11 @@ const ListedWorkoutSaved = ({ workout }: IListedWorkoutSavedPorps) => {
           {workout.name}
         </h3>
 
-        <p className="text-xs text-gray-400">{workout.category}</p>
+        <p className="text-xs text-gray-400">{workout.muscleGroups}</p>
 
         <div className="mt-1 flex items-center gap-4 text-[10px] text-gray-300">
           <span>◷ {workout.duration} min</span>
-          <span>🔥 {workout.calories} kcal</span>
+          <span>🔥 {workout.caloriesBurned} kcal</span>
           <span>⭐ {workout.rating}</span>
         </div>
       </div>

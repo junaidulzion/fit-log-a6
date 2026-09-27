@@ -34,3 +34,36 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+1. Project Name: 
+Name: Fitlog
+
+2. Short description
+Fitlog is a modern workout management web application that helps users discover workouts, create personalized workout plans, and save their favorite workouts for later.
+
+3. Technologies used
+* **Next.js**
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+* **DaisyUI**
+* **REST API**
+* **React Context API**
+
+4. 5 key features of the project
+
+1. **Workout Library**
+   Users can browse and explore different workouts with relevant workout information.
+
+2. **Workout Details**
+   Users can view detailed information about individual workouts.
+
+3. **Personal Workout Plan**
+   Users can add workouts to their personal "Today's Plan" and manage their workout routine.
+
+4. **Save Workouts**
+   Users can save their favorite workouts and access them later from the saved workouts section.
+
+5. **Responsive Design**
+   The application is fully responsive and provides a smooth user experience on mobile, tablet, and desktop devices.

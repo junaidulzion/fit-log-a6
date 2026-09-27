@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Logo from "@/assets/logo.png";
 import NavActions from "@/context/NavAction";
+import MobileMenu from "./MobileMenu";
 
 const NavBar = () => {
   return (
@@ -45,7 +46,7 @@ const NavBar = () => {
         <NavActions />
 
         {/* Mobile Menu */}
-        {/* ... */}
+       <MobileMenu />
         
       </div>
     </nav>

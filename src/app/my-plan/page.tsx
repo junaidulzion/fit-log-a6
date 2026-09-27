@@ -22,11 +22,12 @@ const MyPlan = () => {
     saveForLater.map((workout) => workout.id),
   );
   return (
-    <div className="container mx-auto py-[20px]">
-      <h2 className="my-3 text-white rounded-3xl font-bold text-3xl uppercase">
+    <div className="container mx-auto w-full px-4 py-5 sm:px-6 sm:py-6 lg:px-8 lg:py-8">
+      <h2 className="text-2xl font-bold uppercase tracking-tight text-white sm:text-3xl lg:text-4xl">
         My Plan
       </h2>
-      <p className="text-slate-500">
+
+      <p className="mt-2 max-w-xl text-sm leading-6 text-slate-500 sm:text-base">
         Cap of five lifts for today. Finish them, then load more.
       </p>
 

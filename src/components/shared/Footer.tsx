@@ -17,9 +17,8 @@ const Footer = () => {
             className="h-8 w-8"
           />
 
-          <h2 className="text-xl font-bold tracking-tight text-white">
-            Fit<span className="text-emerald-500">log</span>
-          </h2>
+          <h2 className="text-xl font-bold tracking-tight uppercase text-white">
+            Fitlog </h2>
         </div>
 
         {/* Copyright */}

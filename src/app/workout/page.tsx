@@ -1,8 +1,8 @@
 // import { Autour_One } from "next/font/google";
 import Image from "next/image";
 import React from "react";
-import WorkoutCard from "../shared/WorkoutCard";
 import { Iworkout } from "@/types/workout.type";
+import WorkoutCard from "@/components/shared/WorkoutCard";
 
 const getWorkoutLibrary = async () => {
   const response = await fetch("https://api.api-store.workers.dev/api/fitlog");

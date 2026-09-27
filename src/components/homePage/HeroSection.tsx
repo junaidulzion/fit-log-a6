@@ -47,7 +47,7 @@ const HeroSection = () => {
               {/* Button */}
               <div className="mt-7 sm:mt-8">
                 <Link
-                  href="/workouts"
+                  href="/workout"
                   className="group inline-flex w-full items-center justify-center gap-2 rounded-lg bg-lime-400 px-6 py-3.5 text-sm font-bold uppercase tracking-wide text-black transition-all duration-300 hover:bg-lime-300 hover:shadow-[0_0_25px_rgba(163,230,53,0.25)] sm:w-auto"
                 >
                   Browse Workouts

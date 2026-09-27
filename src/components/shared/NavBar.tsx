@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Logo from "@/assets/logo.png";
+import NavActions from "@/context/NavAction";
 
 const NavBar = () => {
   return (
@@ -23,94 +24,29 @@ const NavBar = () => {
           </span>
         </Link>
 
-        {/* Desktop / Tablet Navigation */}
+        {/* Navigation */}
         <div className="hidden items-center gap-6 md:flex lg:gap-10">
           <Link
             href="/workout"
-            className="group relative py-5 text-sm font-medium text-gray-400 transition hover:text-[#C2F800] lg:text-base"
+            className="text-sm font-medium text-gray-400 hover:text-[#C2F800] lg:text-base"
           >
             Workouts
-            <span className="absolute bottom-2 left-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full" />
           </Link>
 
           <Link
             href="/my-plan"
-            className="group relative py-5 text-sm font-medium text-gray-400 transition hover:text-[#C2F800] lg:text-base"
+            className="text-sm font-medium text-gray-400 hover:text-[#C2F800] lg:text-base"
           >
             My Plan
-            <span className="absolute bottom-2 left-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full" />
           </Link>
         </div>
 
-        {/* Desktop Actions */}
-        <div className="hidden items-center gap-3 md:flex lg:gap-5">
-          <button className="text-sm font-medium text-gray-400 transition hover:text-white lg:text-base">
-            Plan
-          </button>
-
-          <button className="text-sm font-medium text-gray-400 transition hover:text-white lg:text-base">
-            Saved
-          </button>
-        </div>
+        {/* Client Component */}
+        <NavActions />
 
         {/* Mobile Menu */}
-        <div className="dropdown dropdown-end md:hidden">
-          <button
-            tabIndex={0}
-            className="btn btn-ghost btn-sm text-white hover:bg-gray-800"
-            aria-label="Open menu"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </button>
-
-          <ul
-            tabIndex={0}
-            className="menu dropdown-content z-50 mt-3 w-52 rounded-xl border border-gray-700 bg-gray-900 p-3 shadow-xl"
-          >
-            <li>
-              <Link
-                href="/workout"
-                className="text-gray-300 hover:text-white"
-              >
-                Workouts
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                href="/my-plan"
-                className="text-gray-300 hover:text-white"
-              >
-                My Plan
-              </Link>
-            </li>
-
-            <li>
-              <button className="text-gray-300 hover:text-white">
-                Plan
-              </button>
-            </li>
-
-            <li>
-              <button className="text-gray-300 hover:text-white">
-                Saved
-              </button>
-            </li>
-          </ul>
-        </div>
+        {/* ... */}
+        
       </div>
     </nav>
   );

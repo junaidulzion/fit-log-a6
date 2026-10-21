@@ -70,24 +70,22 @@ Fitlog is a modern workout management web application that helps users discover 
 
 
 
-   # 💪 FitLog — Workout Library
+   # FitLog — Workout Library
 
 FitLog is a modern, responsive workout library web application built with Next.js, React, and TypeScript. It allows users to explore workouts, organize their personal workout plans, and save favorite workouts for later.
 
 The application features a clean, dark-themed interface with vibrant lime-green accents, providing a smooth user experience across desktop, tablet, and mobile devices.
 
-## 🌐 Live Demo
+## Live Demo
 
 - **Live Website:** Add your deployed website URL here: https://fit-log-a6-teal.vercel.app/
 - **GitHub Repository:** Add your GitHub repository URL here.https://github.com/junaidulzion/fit-log-a6
 
-## 📸 Screenshot
-
-<!-- Add your project screenshot to the public folder -->
+## Screenshot
 
 ![FitLog Workout Library](./public/screenshot.png)
 
-## ✨ Key Features
+## Key Features
 
 - **Workout Library:** Browse workouts retrieved from an external API.
 - **My Plan:** Organize selected workouts in a personal workout plan.
@@ -99,7 +97,7 @@ The application features a clean, dark-themed interface with vibrant lime-green 
 - **Reusable Components:** Maintainable and organized component-based architecture.
 - **State Management:** Manage shared workout data using React Context.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Next.js** — React framework for routing and web application development.
 - **React** — Building interactive user interfaces.
@@ -110,7 +108,7 @@ The application features a clean, dark-themed interface with vibrant lime-green 
 - **REST API** — Fetching workout data.
 - **Git & GitHub** — Version control and source code management.
 
-## 📦 Dependencies
+## Dependencies
 
 The main packages used in this project include:
 
@@ -124,7 +122,7 @@ The main packages used in this project include:
 
 Check `package.json` for the exact installed packages and their versions.
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these instructions to run FitLog locally.
 
@@ -168,7 +166,7 @@ Visit the following URL in your browser:
 text
 http://localhost:3000
 
-## 🔗 API Reference
+## API Reference
 
 FitLog uses an external API to retrieve workout information.
 
@@ -178,7 +176,7 @@ text
 https://api.api-store.workers.dev/api/fitlog
 
 
-## 📁 Project Structure
+## Project Structure
 
 text
 fitlog/
@@ -195,7 +193,7 @@ fitlog/
 
 *Note: Update this structure to match your actual project folders.*
 
-## 📚 What I Learned
+## What I Learned
 
 Through this project, I practiced:
 
@@ -208,7 +206,7 @@ Through this project, I practiced:
 - Using toast notifications to improve user feedback.
 - Organizing a React application into maintainable components.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add user authentication and personalized profiles.
 - Store workout plans in a database.
@@ -216,7 +214,7 @@ Through this project, I practiced:
 - Track completed workouts and fitness progress.
 - Add detailed exercise instructions and categories.
 
-## 👨‍💻 Author
+## Author
 
 **Junaidul Islam Zion**
 
@@ -226,7 +224,7 @@ Through this project, I practiced:
 
 ---
 
-If you find this project useful, feel free to give it a ⭐ on GitHub!
+If you find this project useful, feel free to give it a on GitHub!
 
 **FitLog — Train hard, log honest.**
 

@@ -67,3 +67,166 @@ Fitlog is a modern workout management web application that helps users discover 
 
 5. **Responsive Design**
    The application is fully responsive and provides a smooth user experience on mobile, tablet, and desktop devices.
+
+
+
+   # 💪 FitLog — Workout Library
+
+FitLog is a modern, responsive workout library web application built with Next.js, React, and TypeScript. It allows users to explore workouts, organize their personal workout plans, and save favorite workouts for later.
+
+The application features a clean, dark-themed interface with vibrant lime-green accents, providing a smooth user experience across desktop, tablet, and mobile devices.
+
+## 🌐 Live Demo
+
+- **Live Website:** Add your deployed website URL here: https://fit-log-a6-teal.vercel.app/
+- **GitHub Repository:** Add your GitHub repository URL here.https://github.com/junaidulzion/fit-log-a6
+
+## 📸 Screenshot
+
+<!-- Add your project screenshot to the public folder -->
+
+![FitLog Workout Library](./public/screenshot.png)
+
+## ✨ Key Features
+
+- **Workout Library:** Browse workouts retrieved from an external API.
+- **My Plan:** Organize selected workouts in a personal workout plan.
+- **Save for Later:** Save workouts for future reference.
+- **Duplicate Prevention:** Prevent duplicate workouts from being added to your plan.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Modern UI:** Dark-themed interface with lime-green accents.
+- **Toast Notifications:** Display interactive notifications using React Toastify.
+- **Reusable Components:** Maintainable and organized component-based architecture.
+- **State Management:** Manage shared workout data using React Context.
+
+## 🛠️ Technologies Used
+
+- **Next.js** — React framework for routing and web application development.
+- **React** — Building interactive user interfaces.
+- **TypeScript** — Writing type-safe and maintainable code.
+- **Tailwind CSS** — Styling and responsive layouts.
+- **daisyUI** — Prebuilt UI components.
+- **React Toastify** — Displaying toast notifications.
+- **REST API** — Fetching workout data.
+- **Git & GitHub** — Version control and source code management.
+
+## 📦 Dependencies
+
+The main packages used in this project include:
+
+- `next`
+- `react`
+- `react-dom`
+- `react-toastify`
+- `tailwindcss`
+- `daisyui`
+- `typescript`
+
+Check `package.json` for the exact installed packages and their versions.
+
+## 🚀 Getting Started
+
+Follow these instructions to run FitLog locally.
+
+### Prerequisites
+
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- npm
+- [Git](https://git-scm.com/)
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+**2. Navigate to the project directory**
+
+bash
+cd YOUR_PROJECT_FOLDER
+
+
+**3. Install dependencies**
+
+bash
+npm install
+
+
+**4. Start the development server**
+
+bash
+npm run dev
+
+**5. Open the application**
+
+Visit the following URL in your browser:
+
+text
+http://localhost:3000
+
+## 🔗 API Reference
+
+FitLog uses an external API to retrieve workout information.
+
+**API Endpoint:**
+
+text
+https://api.api-store.workers.dev/api/fitlog
+
+
+## 📁 Project Structure
+
+text
+fitlog/
+├── public/
+│   └── screenshot.png
+├── src/
+│   ├── app/
+│   ├── components/
+│   └── ...
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+*Note: Update this structure to match your actual project folders.*
+
+## 📚 What I Learned
+
+Through this project, I practiced:
+
+- Building applications with Next.js and React.
+- Creating reusable components with TypeScript.
+- Fetching and displaying data from a REST API.
+- Managing shared state with React Context.
+- Preventing duplicate items in workout plans.
+- Creating responsive interfaces with Tailwind CSS.
+- Using toast notifications to improve user feedback.
+- Organizing a React application into maintainable components.
+
+## 🔮 Future Improvements
+
+- Add user authentication and personalized profiles.
+- Store workout plans in a database.
+- Implement workout search, filtering, and sorting.
+- Track completed workouts and fitness progress.
+- Add detailed exercise instructions and categories.
+
+## 👨‍💻 Author
+
+**Junaidul Islam Zion**
+
+- **GitHub:** [My GitHub Profile]([https://github.com/YOUR_GITHUB_USERNAME](https://github.com/junaidulzion/junaidulzion))
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/junaidul-islam-zion-47037923a/)
+- **Email:** junaidulzion@gmail.com
+
+---
+
+If you find this project useful, feel free to give it a ⭐ on GitHub!
+
+**FitLog — Train hard, log honest.**
+
